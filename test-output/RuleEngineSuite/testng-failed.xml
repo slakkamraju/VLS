@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RuleEngineSuite]">
+  <test thread-count="5" name="RuleEngineTests(failed)">
+    <classes>
+      <class name="RuleEngine.RuleEngineTests">
+        <methods>
+          <include name="verifyProductionAvailabilityFalse"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- RuleEngine.RuleEngineTests -->
+    </classes>
+  </test> <!-- RuleEngineTests(failed) -->
+</suite> <!-- Failed suite [RuleEngineSuite] -->
