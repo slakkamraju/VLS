@@ -1,7 +1,7 @@
 Note: I have used Eclipse IDE to create Maven project. Used TestNG framework to create and run the tests for this project
 
 
-Step 1) Get Maven project from the GitHub
+Step 1) Get Maven project from the GitHub (location: https://github.com/slakkamraju/VLS)
 Step 2) Install TestNG for Eclipse - This will enable to run the testNG tests from Eclipse
 	Below URl provides step by step instructions to install Testng for Eclipse
 	 https://www.toolsqa.com/selenium-webdriver/install-testng/
