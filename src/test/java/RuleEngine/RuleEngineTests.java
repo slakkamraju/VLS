@@ -30,7 +30,7 @@ public class RuleEngineTests {
 	}
 	@Test(groups={"productAvailable","regression"})
 	public void verifyProductionAvailabilityFalse() {
-		//person.setState("North Dakota");
+		person.setState("North Dakota");
 		ruleEngine.runRules(person, product, rulesFile);
 		Assert.assertEquals(true, product.getDisqualified());
 		
